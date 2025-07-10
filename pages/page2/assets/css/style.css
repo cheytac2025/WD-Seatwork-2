@@ -1,0 +1,268 @@
+/* Reset and Base */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ===== Header 3 ===== */
+.header3 {
+  background-color: #5a1212;
+  padding: 30px 60px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 10;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-container img {
+  height: 60px;
+}
+
+.company-name {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.center-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #f9f9f9;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.center-nav a:hover {
+  color: #ffaaaa;
+}
+
+.nav input[type="text"] {
+  padding: 8px 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+/* ===== Hero Ryota Section ===== */
+.hero-ryota {
+  background: url('assets/img/10.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.hero-ryota::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-box {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  padding-left: 120px;
+}
+
+.text-box h1 {
+  font-size: 4em;
+  margin-bottom: 15px;
+}
+
+.text-box p {
+  font-size: 1.6em;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background-color: #28a745;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: #1e7e34;
+}
+
+/* ===== Footer 3 ===== */
+.footer3 {
+  background-color: #222;
+  color: #f1f1f1;
+  padding: 50px 20px 20px;
+  margin-top: 80px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-columns div {
+  flex: 1 1 200px;
+}
+
+.footer-columns h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #ffcccc;
+}
+
+.footer-columns p {
+  margin: 5px 0;
+  color: #ccc;
+}
+
+.footer-columns img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.icons {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.footer3 p:last-child {
+  text-align: center;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+.header3 .center-nav {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 20px;
+}
+
+.footer3 .footer-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer3 .footer-columns div {
+    margin: 10px;
+}
+
+.footer3 .footer-columns h4 {
+    margin-bottom: 10px;
+}
+
+/* === New Hero Layout === */
+.hero-ryota {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.hero-ryota-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-ryota-left,
+.hero-ryota-right {
+  flex: 1 1 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.hero-gif {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.text-box {
+  text-align: center;
+}
+
+.text-box h1 {
+  font-size: 3.5em;
+  margin-bottom: 15px;
+}
+
+.text-box p {
+  font-size: 1.5em;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background: #28a745;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background: #1e7e34;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-ryota-container {
+    flex-direction: column;
+  }
+
+  .text-box h1 {
+    font-size: 2.5em;
+  }
+
+  .text-box p {
+    font-size: 1.2em;
+  }
+}
