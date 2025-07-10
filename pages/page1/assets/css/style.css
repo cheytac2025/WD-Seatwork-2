@@ -1,0 +1,175 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+
+.header {
+  padding: 15px 30px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.logo-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: color 0.3s;
+}
+
+.company-name:hover {
+  color: #007bff;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.center-nav {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.center-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.center-nav a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.signup-btn {
+  background-color:#007bff;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.signup-btn:hover {
+  background-color:#007bff;
+}
+
+
+.hero-rukawa {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('./img/rukawa-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.hero-rukawa .content {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-rukawa h1 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+}
+
+.hero-rukawa p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #00bcd4;
+  padding: 12px 25px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+
+.footer2 {
+  background-color: #333;
+  color: white;
+  padding: 30px 20px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.footer2 .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer2 img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.footer2 nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer2 nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.footer2 nav a:hover {
+  color: #ff4f81;
+}
