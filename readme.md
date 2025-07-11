@@ -9,11 +9,11 @@
     <img src="assets/img/sakuragi.png" alt="Logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="WD-Seatwork-1">Title</h3>
+  <h3 align="WD-Seatwork-1">WD-SEATWORK-2</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-WD-Seatwork-1 is a web development project designed to apply and demonstrate foundational skills in creating structured, styled, and responsive web pages. This project focuses on building clean layouts using HTML and CSS, while ensuring accessibility and user-friendly navigation.
+WD-Seatwork-2 is a web development project designed to apply and demonstrate foundational skills in creating structured, styled, and responsive web pages. This project focuses on building clean layouts using HTML and CSS, while ensuring accessibility and user-friendly navigation.
 </div>
 
 <br />
@@ -56,16 +56,16 @@ WD-Seatwork-1 is a web development project designed to apply and demonstrate fou
 
 ## Overview
 
-WD-Seatwrok-1 is a web development project designed to apply and demonstrate foundational skills in creating structured, styled, and responsive web pages. This project focuses on building clean layouts using HTML and CSS, while ensuring accessibility and user-friendly navigation.
+WD-Seatwrok-2 is a web development project designed to apply and demonstrate foundational skills in creating structured, styled, and responsive web pages. This project focuses on building clean layouts using HTML and CSS, while ensuring accessibility and user-friendly navigation.
 
-✨ Key Features:
-Responsive web design
-
-Organized header, footer, and content sections
-
-Custom styling for visual appeal
-
-Clean and semantic HTML structure
+✨Key Features
+-Fully responsive web design across all screen sizes
+-Fixed, well-structured header with logo and navigation links
+-Separate hero sections with different designs for each character
+-Consistent custom footer across all pages
+-Visually engaging background images and styled call-to-action buttons
+-Organized file structure using folders for pages and assets
+-Clean, semantic HTML with separate CSS for maintainability
 
 🚀 Technologies Used:
 HTML5
@@ -78,11 +78,14 @@ This project serves as a seatwork activity for practicing web design fundamental
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- Single Page Website
--   Responsive Layout  
-- Fixed Header with Navigation  
-- Centered Navigation Menu  
-- Custom Footer Section
+-Multi-Page Website with Dedicated Hero Sections per Character
+-Responsive Hero Sections with Fullscreen Background Images
+-Custom Typography and Button Styling
+-Different Design for Each Character (Hanamichi, Rukawa, Ryota, Akagi, Mitsui)
+-Linking to Character Pages
+-Consistent Footer on All Pages
+-Clean and Organized Folder Structure (/pages, /assets)
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
